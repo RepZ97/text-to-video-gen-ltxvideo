@@ -1,0 +1,66 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Output and build artifacts
+outputs/
+*.log
+*.pid
+*.sock
+*.tmp
+
+# Docker files and layers
+*.tar
+*.lock
+.dockerignore
+
+# Dependency directories and files
+node_modules/
+package-lock.json
+pip-log.txt
+*.egg-info/
+.eggs/
+
+# Git-specific files
+*.orig
+*.rej
+
+# Python-specific cache
+*.cache
+*.mypy_cache/
+*.pytest_cache/
+.coverage
+
+# Configurations and generated files
+config.yaml
+config.json
+*.ini
+*.bak
+
+# Data and model files
+*.h5
+*.tflite
+*.onnx
+*.safetensors
+PixArt-alpha/
+Lightricks/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
